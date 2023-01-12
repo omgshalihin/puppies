@@ -30,7 +30,7 @@ export default function Home({ puppies, search }: any) {
   React.useEffect(() => {
     const fetchImage = async () => {
       const response = await fetch(
-        `https://api.unsplash.com/search/photos?page=1&per_page=50&query=dog&client_id=${process.env.REACT_APP_UNSPLASH_ACCESS_KEY}`,
+        'https://api.unsplash.com/search/photos?page=1&per_page=50&query=dog&client_id=tVZ5XSggCGfp4quPNGW_BIEULp4AV06QDPbnVUKT3Xc',
       )
       const newImage = await response.json()
       const result = newImage.results
