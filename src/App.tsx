@@ -19,6 +19,7 @@ const App = () => {
         const response = await fetch('https://puppies-api-production.up.railway.app/api/puppies')
         const newData = await response.json()
         setData(newData)
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
       } catch (err: any) {
         setError(err.message)
       }
