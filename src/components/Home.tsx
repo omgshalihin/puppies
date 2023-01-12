@@ -84,8 +84,8 @@ export default function Home({ puppies, search }: any) {
           const y = y2 - parseInt(y1, 10)
 
           return (
-            <>
-              <ListItemButton key={index} onClick={() => viewPuppyHandler(puppy.id)}>
+            <div key={index}>
+              <ListItemButton onClick={() => viewPuppyHandler(puppy.id)}>
                 <ListItemAvatar>
                   <Avatar alt='Profile Picture' src={res[index].urls.small} />
                 </ListItemAvatar>
@@ -95,7 +95,7 @@ export default function Home({ puppies, search }: any) {
                 />
               </ListItemButton>
               {length === 1 ? <DeleteFavButton singlePuppy={singlePuppy} puppies={[]} /> : null}
-            </>
+            </div>
           )
         })}
       </List>
