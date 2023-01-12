@@ -41,7 +41,7 @@ const App = () => {
   return (
     <div className='app'>
       <header className='app-header'>
-        {/* <TopNav func={pullData} /> */}
+        <TopNav func={pullData} />
         <Routes>
           <Route path='/' element={<Home puppies={data} search={search} />} />
           <Route path='/favorite' element={<Favorite puppies={data} />} />
