@@ -29,8 +29,12 @@ export default function DeleteFavButton({ singlePuppy }: DataType) {
     fetch(url, {
       method: 'Delete',
       mode: 'cors',
+    }).then(() => {
+      navigate('/')
+      setTimeout(() => {
+        window.location.reload()
+      }, 200)
     })
-    window.location.reload()
   }
 
   const updatePuppy = (single: any) => {
