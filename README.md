@@ -1,4 +1,4 @@
-## Hobby Project Title: [`Adopt a Puppy`](https://comforting-rolypoly-5e7c45.netlify.app/) - **OPTIMISED FOR MOBILE**
+## Hobby Project Title: [`Adopt a Puppy`](https://comforting-rolypoly-5e7c45.netlify.app/)
 
 Open [app](https://comforting-rolypoly-5e7c45.netlify.app/) with your **MOBILE PHONE** to see the result.
 
