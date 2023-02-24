@@ -46,7 +46,7 @@ export default function Update() {
 
   return (
     <>
-      <h1>update</h1>
+      <h1 className='header'>update</h1>
       <Box
         className='try'
         component='form'
@@ -59,7 +59,7 @@ export default function Update() {
       >
         <TextField
           sx={{
-            '& > :not(style)': { color: 'white' },
+            '& > :not(style)': { color: 'black' },
           }}
           id='outlined-basic'
           label='Name of Puppy'
@@ -70,7 +70,7 @@ export default function Update() {
         />
         <TextField
           sx={{
-            '& > :not(style)': { color: 'white' },
+            '& > :not(style)': { color: 'black' },
           }}
           id='outlined-basic'
           label='Breed'
@@ -81,7 +81,7 @@ export default function Update() {
         />
         <TextField
           sx={{
-            '& > :not(style)': { color: 'white' },
+            '& > :not(style)': { color: 'black' },
           }}
           id='outlined-basic'
           label='yyyy-mm-dd'
