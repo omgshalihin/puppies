@@ -42,7 +42,7 @@ export default function Add() {
 
   return (
     <Box
-      className='try'
+      className='add-container'
       component='form'
       sx={{
         '& > :not(style)': { m: 1, width: '25ch' },
@@ -53,7 +53,7 @@ export default function Add() {
     >
       <TextField
         sx={{
-          '& > :not(style)': { color: 'white' },
+          '& > :not(style)': { color: 'black' },
         }}
         id='outlined-basic'
         label='Name of Puppy'
@@ -64,7 +64,7 @@ export default function Add() {
       />
       <TextField
         sx={{
-          '& > :not(style)': { color: 'white' },
+          '& > :not(style)': { color: 'black' },
         }}
         id='outlined-basic'
         label='Breed'
@@ -75,7 +75,7 @@ export default function Add() {
       />
       <TextField
         sx={{
-          '& > :not(style)': { color: 'white' },
+          '& > :not(style)': { color: 'black' },
         }}
         id='outlined-basic'
         label='yyyy-mm-dd'

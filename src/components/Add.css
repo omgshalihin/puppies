@@ -1,4 +1,10 @@
-.try {
-  margin-bottom: 50% !important;
-  margin-top: 50% !important;
+.MuiBox-root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-container {
+  padding-top: 100px;
 }
