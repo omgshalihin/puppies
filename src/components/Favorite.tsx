@@ -6,7 +6,7 @@ const Favorite = ({ puppies }: any) => {
 
   return (
     <>
-      <h1>My Favorite Puppies</h1>
+      <h1 className='header'>My Favorite Puppies</h1>
       {onlyFavPuppies.map(
         (el: {
           name:

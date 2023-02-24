@@ -85,13 +85,16 @@ export default function Home({ puppies, search }: any) {
 
           return (
             <div key={index}>
-              <ListItemButton onClick={() => viewPuppyHandler(puppy.id)}>
+              <ListItemButton
+                className='list--container'
+                onClick={() => viewPuppyHandler(puppy.id)}
+              >
                 <ListItemAvatar>
                   <Avatar alt='Profile Picture' src={res[index].urls.small} />
                 </ListItemAvatar>
                 <ListItemText
-                  primary={`${puppy.name} : ${y} years ${m} months ${d} days old`}
-                  secondary={puppy.breed}
+                  primary={`${puppy.name} is a ${puppy.breed}`}
+                  secondary={`Age : ${y} years ${m} months ${d} days old`}
                 />
               </ListItemButton>
               {length === 1 ? <DeleteFavButton singlePuppy={singlePuppy} puppies={[]} /> : null}
